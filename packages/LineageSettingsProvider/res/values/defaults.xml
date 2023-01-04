@@ -26,7 +26,7 @@
     <bool name="def_lockscreen_visualizer">false</bool>
 
     <!-- Default for LineageSettings.Secure.VOLUME_PANEL_ON_LEFT -->
-    <bool name="def_volume_panel_on_left">false</bool>
+    <bool name="def_volume_panel_on_left">true</bool>
 
     <!-- Default for LineageSettings.Secure.QS_SHOW_BRIGHTNESS_SLIDER -->
     <bool name="def_qs_show_brightness_slider">true</bool>
