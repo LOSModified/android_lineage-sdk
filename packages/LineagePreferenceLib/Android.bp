@@ -5,7 +5,6 @@
 
 android_library {
     name: "LineagePreferenceLib",
-    min_sdk_version: "30",
     static_libs: [
         "androidx.preference_preference",
         "SettingsLibMainSwitchPreference",
