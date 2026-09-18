@@ -31,7 +31,7 @@ public class DeviceKeysConstants {
         PARTIAL_SCREENSHOT;
 
         public static Action fromIntSafe(int id) {
-            if (id < NOTHING.ordinal() || id > Action.values().length) {
+            if (id < NOTHING.ordinal() || id >= Action.values().length) {
                 return NOTHING;
             }
             return Action.values()[id];
